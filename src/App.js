@@ -1,16 +1,26 @@
+import Accordian from './components/Accordian'
 
-import './App.css';
+
+const items = [
+  {
+      title: 'What is React',
+      content: 'React is a frontend  javascript framework'
+  },
+  {
+      title: 'Why use React?',
+      content: 'It is the most favorite library used by developers'
+  },
+   {
+       title: 'How to use React?',
+       content: 'We use react by creating components.'
+   }
+]
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-          Learn React
-      </header>
+      <Accordian items = {items} />
     </div>
   );
 }
