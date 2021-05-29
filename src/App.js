@@ -1,5 +1,7 @@
 import Accordian from './components/Accordian'
+import Dropdown from './components/Dropdown'
 import Search from './components/Search'
+
 
 const items = [
   {
@@ -16,12 +18,31 @@ const items = [
    }
 ]
 
+const options = [
+  {
+    label: 'The color Red',
+    value: 'red'
+  },
+  {
+    label: 'The color Blue',
+    value: 'blue'
+  },
+  {
+    label: 'The color Green',
+    value: 'green'
+  },
+  {
+    label: 'The color Yellow',
+    value: 'yellow'
+  }
+]
 
 function App() {
   return (
     <div className="App">
       {/* <Accordian items = {items} /> */}
-      <Search />
+      {/* <Search /> */}
+      <Dropdown options={options} />
     </div>
   );
 }
