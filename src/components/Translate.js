@@ -14,6 +14,39 @@ const options = [
     {
         label: 'Hindi',
         value:'hi'
+    },
+    {
+        label:'Urdu',
+        value: 'ur'
+    }
+    ,
+    {
+        label:'English',
+        value: 'en'
+    },
+    {
+        label:'French',
+        value:'fr'
+    }
+    ,
+    {
+        label:'German',
+        value:'de'
+    }
+    ,
+    {
+        label:'Gujarati',
+        value:'gu'
+    }
+    ,
+    {
+        label:'Japanese',
+        value:'ja'
+    }
+    ,
+    {
+        label:'Punjabi',
+        value:'pa'
     }
 ]
 
