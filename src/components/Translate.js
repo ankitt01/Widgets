@@ -13,7 +13,7 @@ const options = [
     },
     {
         label: 'Hindi',
-        value:'ihi'
+        value:'hi'
     }
 ]
 
