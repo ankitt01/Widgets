@@ -5,6 +5,7 @@ import Search from './components/Search'
 import Dropdown from './components/Dropdown'
 import Translate from './components/Translate'
 import Route from './components/Route'
+import Header from './components/Header'
 
 const items = [
   {
@@ -46,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <Header />
       <Route path="/">
         <Accordian items={items} />
       </Route>
